@@ -90,4 +90,9 @@ export default {
         topLevelAwait: true,
         // Allow to use await on module evaluation (Proposal)
     }
+    , performance: {
+        hints: false,
+        maxEntrypointSize: 26214400,
+        maxAssetSize: 26214400
+    }
 };
